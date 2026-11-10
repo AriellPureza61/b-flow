@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Identidade B.Flow
+   Azul Corporativo #0F214A | Azul Tech #00A6D4 | Verde Crescimento #22C55E
+   Cinza Neutro #F1F5F9 | Cinza Escuro #1F2937 | Fonte Inter */
+
+@layer base {
+  body {
+    @apply bg-[#F1F5F9] text-[#1F2937] antialiased selection:bg-[#00A6D4] selection:text-white transition-colors duration-200;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00A6D4;
+}
+
+/* ================= MODO ESCURO ================= */
+.dark-mode,
+.dark-mode.bflow-page-bg,
+.dark-mode main {
+  background-color: #0B1530 !important;
+  color: #e2e8f0 !important;
+}
+
+.dark-mode .bg-\[\#F1F5F9\],
+.dark-mode .bg-\[\#f1f5f9\],
+.dark-mode .bg-slate-50 {
+  background-color: #0B1530 !important;
+}
+
+.dark-mode .bg-white,
+.dark-mode .bg-white\/90,
+.dark-mode .bflow-sidebar,
+.dark-mode .bflow-topbar {
+  background-color: #111d3d !important;
+  color: #e2e8f0 !important;
+}
+
+.dark-mode .bg-\[\#f8fafc\],
+.dark-mode .bg-\[\#fafbfd\],
+.dark-mode .bg-\[\#fbfcfe\],
+.dark-mode .bg-gray-50,
+.dark-mode .bg-gray-50\/50,
+.dark-mode .bg-gray-100 {
+  background-color: #182850 !important;
+  color: #e2e8f0 !important;
+}
+
+.dark-mode .border-\[\#e2e8f0\],
+.dark-mode .border-\[\#dfe5ee\],
+.dark-mode .border-\[\#ccd4e0\],
+.dark-mode .border-gray-100,
+.dark-mode .border-gray-200,
+.dark-mode .border-gray-300,
+.dark-mode .border-sky-100 {
+  border-color: #24365f !important;
+}
+
+.dark-mode .divide-\[\#e2e8f0\] > :not([hidden]) ~ :not([hidden]),
+.dark-mode .divide-gray-100 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #24365f !important;
+}
+
+.dark-mode .text-\[\#1F2937\],
+.dark-mode .text-\[\#0F214A\],
+.dark-mode .bflow-logo-b,
+.dark-mode .bflow-logo-tag,
+.dark-mode .text-gray-800,
+.dark-mode .text-gray-900 {
+  color: #ffffff !important;
+}
+
+.dark-mode .text-\[\#475569\],
+.dark-mode .text-gray-700,
+.dark-mode .text-gray-600 {
+  color: #cbd5e1 !important;
+}
+
+.dark-mode .text-\[\#64748b\],
+.dark-mode .text-\[\#94a3b8\],
+.dark-mode .text-gray-500 {
+  color: #94a3b8 !important;
+}
+
+/* Botões/destaques em Azul Corporativo ficam em Azul Tech no escuro para manter contraste */
+.dark-mode .bg-\[\#0F214A\] {
+  background-color: #00A6D4 !important;
+}
+.dark-mode .border-\[\#0F214A\] {
+  border-color: #00A6D4 !important;
+}
+
+.dark-mode input,
+.dark-mode select,
+.dark-mode textarea {
+  background-color: #182850 !important;
+  color: #ffffff !important;
+  border-color: #2b4073 !important;
+}
+
+.dark-mode .bg-\[\#e6f7fb\],
+.dark-mode .bg-sky-50,
+.dark-mode .bg-sky-50\/50,
+.dark-mode .bg-sky-100 {
+  background-color: rgba(0, 166, 212, 0.15) !important;
+}
+
+.dark-mode .bg-gradient-to-r.from-\[\#e6f7fb\] {
+  background: linear-gradient(to right, rgba(0, 166, 212, 0.18), #111d3d, #111d3d) !important;
+}
+
+.dark-mode .hover\:bg-\[\#F1F5F9\]:hover,
+.dark-mode .hover\:bg-\[\#f1f5f9\]:hover,
+.dark-mode .hover\:bg-gray-50:hover,
+.dark-mode .hover\:bg-gray-100:hover,
+.dark-mode .hover\:bg-sky-50:hover {
+  background-color: #1d2f5c !important;
+}

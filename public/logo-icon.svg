@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="bflowGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00A6D4" />
+      <stop offset="100%" stop-color="#22C55E" />
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="24" fill="#0F214A"/>
+  <path d="M28 70 C40 70 40 52 52 52 C62 52 62 40 72 34" stroke="url(#bflowGrad)" stroke-width="9" stroke-linecap="round" fill="none"/>
+  <path d="M60 30 H76 V46" stroke="#22C55E" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

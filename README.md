@@ -6,6 +6,20 @@ Plataforma executiva corporativa desenvolvida para **Gestores de Operações e V
 
 ---
 
+## 📺 Demonstração do Sistema
+
+https://github.com/user-attachments/assets/demo-bflow
+
+<p align="center">
+  <video src="https://github.com/AriellPureza61/b-flow/raw/main/docs/demo-bflow.mp4" controls="controls" width="100%" style="max-height: 520px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.15);">
+    Seu navegador não suporta a tag de vídeo. Você pode <a href="docs/demo-bflow.mp4">baixar ou assistir o vídeo clicando aqui</a>.
+  </video>
+</p>
+
+> 🎬 **Download direto:** [▶️ `docs/demo-bflow.mp4` (Vídeo de Demonstração em Alta Definição)](docs/demo-bflow.mp4)
+
+---
+
 ## ✨ Módulos Principais
 
 - **🏪 Lojas & Unidades (PDVs):** Gestão completa de unidades físicas, quadro de colaboradores (Headcount), infraestrutura técnica (IPs, MACs, SAP) e contatos diretos com gerentes.
